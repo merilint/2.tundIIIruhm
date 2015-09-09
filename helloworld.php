@@ -32,7 +32,7 @@
 	
     for ($i = 0; $i < $age; $i = $i + 1){
 		//see, mida korratakse
-		echo "palju ";
+		echo "palju ".$i." ";
 	
 	}
 	
@@ -40,8 +40,3 @@
 		
 	
 	?>
-	<br>
-<?php
-    // kuupäev - date
-    echo date("l, j F Y e");
-?>

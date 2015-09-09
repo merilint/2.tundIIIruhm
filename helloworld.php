@@ -40,3 +40,8 @@
 		
 	
 	?>
+<br>
+<?php
+    // trüki välja kuupäev: nädalapäev,kp,kuu,aasta - date
+    echo date("l, j F Y e");
+?>
